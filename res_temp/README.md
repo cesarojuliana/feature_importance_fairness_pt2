@@ -1,1 +1,1 @@
-# Pickle com resultados gerados pelo SHAP para diversos modelos e datasets
+### Local para salvar resultados gerados pelo SHAP como pickle para diversos modelos e datasets
