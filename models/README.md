@@ -1,0 +1,1 @@
+# Pickle com modelos treinados
