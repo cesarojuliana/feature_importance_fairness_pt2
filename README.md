@@ -16,9 +16,9 @@ Nós usamos 5 datasets: Adult, German, Default, COMPAS e PNAD. Todos foram avali
 
 - `dataset`: contém os datasets utilizados nesse trabalho: Adult, German, Default, COMPAS e PNAD
 - `data`: datasets processados e divididos em treino e teste, e resultados de fairness e do SHAP
-- `models`: local para salvar modelos treinados como pickle. Arquivos gerados pelo notebook `RunFairness.ipynb`.
-- `res_temp`: local para salvar resultados gerados pelo processo de `main_fairness.py` como pickle para diversos modelos e datasets. Como esse processo demora muito tempo salvamos resultados intermediários.  Arquivos gerados pelo notebook `RunSHAP.ipynb`.
-- `result_image`: Local para salvar imagens geradas pelo SHAP. Arquivos gerados pelo notebook `RunSHAP.ipynb`.
+- `models`: local para salvar modelos treinados como pickle. Arquivos gerados pelo notebook `RunFairness.ipynb`
+- `res_temp`: local para salvar resultados gerados pelo processo de `main_fairness.py` como pickle para diversos modelos e datasets. Como esse processo demora muito tempo salvamos resultados intermediários.  Arquivos gerados pelo notebook `RunSHAP.ipynb`
+- `result_image`: Local para salvar imagens geradas pelo SHAP. Arquivos gerados pelo notebook `RunSHAP.ipynb`
 
 **Arquivos python**
 
