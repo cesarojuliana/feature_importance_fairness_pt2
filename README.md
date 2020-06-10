@@ -11,3 +11,23 @@ Nós usamos 5 datasets: Adult, German, Default, COMPAS e PNAD. Todos foram avali
 - Linear SHAP: aplicada no modelo de Regressão Logística
 
 ### Estrutura do projeto
+
+**Pastas**
+
+- `dataset`: contém os datasets utilizados nesse trabalho: Adult, German, Default, COMPAS e PNAD
+- `data`: datasets processados e divididos em treino e teste, e resultados de fairness e do SHAP
+- `models`: local para salvar modelos treinados como pickle. Arquivos gerados pelo notebook `RunFairness.ipynb`.
+- `res_temp`: local para salvar resultados gerados pelo processo de `main_fairness.py` como pickle para diversos modelos e datasets. Como esse processo demora muito tempo salvamos resultados intermediários.  Arquivos gerados pelo notebook `RunSHAP.ipynb`.
+- `result_image`: Local para salvar imagens geradas pelo SHAP. Arquivos gerados pelo notebook `RunSHAP.ipynb`.
+
+**Arquivos python**
+
+- `fairness.py`: funções base das medidas de fairness
+- `main_fairness.py`: funções base para rodar o processo de fairness
+- `main_shap.py`: funções base para os cálculos de medidas e gráficos do SHAP
+
+**Notebooks**
+
+- `EDA - PNAD.ipynb`: Análise exploratória dos dados do PNAD
+- `RunFairness.ipynb`: Notebook que roda o processo para calcular as métricas de fairness
+- `RunSHAP.ipynb`: Notebook que roda o processo para calcular o resultado do SHAP
