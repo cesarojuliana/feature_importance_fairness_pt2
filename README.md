@@ -28,7 +28,7 @@ Nós usamos 5 datasets: Adult, German, Default, COMPAS e PNAD. Todos foram avali
 
 **Notebooks**
 
-- `EDA - PNAD.ipynb`: Análise exploratória dos dados do PNAD
 - `RunFairness.ipynb`: Notebook que roda o processo para calcular as métricas de fairness
 - `RunSHAP.ipynb`: Notebook que roda o processo para calcular o resultado do SHAP
+- `EDA - PNAD.ipynb`: Análise exploratória dos dados do PNAD
 - `Análise disparidade entre grupos.ipynb`: Avaliação da existência de viés nos datasets, com quantificação da proporção dos valores da variável alvo do dataset de acordo com o grupo da variável sensível 
