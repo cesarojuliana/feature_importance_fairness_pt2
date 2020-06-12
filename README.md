@@ -10,6 +10,15 @@ Nós usamos 5 datasets: Adult, German, Default, COMPAS e PNAD. Todos foram avali
 - Tree SHAP: aplicada nos modelos Random Forest e Gradient Boosting
 - Linear SHAP: aplicada no modelo de Regressão Logística
 
+### Dependências do projeto
+
+No projeto foi usada a versão 3.6 do Python. Todas as dependências do projeto podem ser encontradas no arquivo `requirements.txt`, para instalá-las execute na pasta raiz do projeto: 
+
+```
+pip install -r requirements.txt
+```
+
+
 ### Estrutura do projeto
 
 **Pastas**
