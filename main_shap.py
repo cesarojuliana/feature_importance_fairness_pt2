@@ -142,8 +142,6 @@ def run_process(dataset_name, protected_attribute, label):
     df_train_usdmin1 = pd.read_csv('data/{}_train_usd-1.csv'.format(dataset_name))
     df_train_usd0 = pd.read_csv('data/{}_train_usd0.csv'.format(dataset_name))
 
-#     result = []
-
     X_train = df_train.drop(label, axis=1)
     X_test = df_test.drop(label, axis=1)
 
