@@ -63,7 +63,8 @@ class RunSHAP():
         result['shap_method'] = 'tree'
         
         explainer = shap.TreeExplainer(model=self.model, data=self.X_train, 
-                                       feature_dependence='tree_path_dependent')
+                                       feature_dependence='independent', 
+                                       model_output='probability')
         shap_values = explainer.shap_values(self.X_test)
         if isinstance(shap_values,list):
             shap_values = shap_values[1]
