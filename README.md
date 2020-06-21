@@ -6,9 +6,11 @@ Nós usamos as seguintes medidas de justiça: paridade estatística, igualdade d
 
 Propomos medidas para avaliar o resultado do SHAP de forma global, com um resultado por modelo, que chamamos de importância da feature e disparidade do SHAP.
 
-A tabela abaixo contém a formula das medidas que foram usadas.
+A tabela abaixo contém a fórmula das medidas que foram usadas.
 
 <img src="metrics_equations.png">
+
+Nas equações acima, $$A$$ é a feature sensível, sendo o valor 1 do grupo privilegiado e 0 do grupo desprivilegiado.
 
 Nós usamos 5 datasets: Adult, German, Default, COMPAS e PNAD. Todos foram avaliados com 4 modelos: Random Forest, Gradient Boosting, Regressão Logística e SVM. Usamos as seguintes técnicas do SHAP:
 
