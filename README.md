@@ -10,7 +10,7 @@ A tabela abaixo contém a fórmula das medidas que foram usadas.
 
 <img src="metrics_equations.png">
 
-Nas equações acima, $$A$$ é a feature sensível, sendo o valor 1 do grupo privilegiado e 0 do grupo desprivilegiado.
+Nas equações acima, A é a feature sensível, sendo o valor 1 do grupo privilegiado e 0 do grupo desprivilegiado.
 
 Nós usamos 5 datasets: Adult, German, Default, COMPAS e PNAD. Todos foram avaliados com 4 modelos: Random Forest, Gradient Boosting, Regressão Logística e SVM. Usamos as seguintes técnicas do SHAP:
 
