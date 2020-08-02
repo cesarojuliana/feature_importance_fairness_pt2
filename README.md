@@ -47,6 +47,7 @@ pip install -r requirements.txt
 
 - `RunFairness.ipynb`: Notebook que roda o processo para calcular as métricas de fairness
 - `RunSHAP.ipynb`: Notebook que roda o processo para calcular o resultado do SHAP
-- `EDA - PNAD.ipynb`: Análise exploratória dos dados do PNAD
 - `Análise disparidade entre grupos.ipynb`: Avaliação da existência de viés nos datasets, com quantificação da proporção dos valores da variável alvo do dataset de acordo com o grupo da variável sensível 
+- `EDA - PNAD.ipynb`: Análise exploratória dos dados do PNAD
+- `PNAD - Efeito variação variável sensível.ipynb`: Avaliação do resultado do modelo com a variação do valor da variável sensível
 - `Análise resultados.ipynb`: Análise dos resultados obtidos com as medidas de justiça e do SHAP
