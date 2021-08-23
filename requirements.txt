@@ -2,7 +2,7 @@ aif360==0.2.0
 ipywidgets==7.4.2
 jupyter-client==5.3.4
 jupyter-core==4.6.1
-jupyterlab==0.35.4
+jupyterlab==1.2.21
 jupyterlab-server==0.2.0
 llvmlite==0.28.0
 matplotlib==2.1.0
