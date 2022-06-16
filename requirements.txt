@@ -6,7 +6,7 @@ jupyterlab==0.35.4
 jupyterlab-server==0.2.0
 llvmlite==0.28.0
 matplotlib==2.1.0
-notebook==6.0.2
+notebook==6.4.12
 numba==0.43.0
 numpy==1.18.1
 pandas==0.25.3
